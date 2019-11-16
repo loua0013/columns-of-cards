@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #f2f2f2;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 auto 1.5rem;
+}
+
+.cards {
+  display: flex;
+  list-style: none;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+ul {
+  padding: 0 .75rem;
+  display: flex;
+}
+
+li {
+  display: flex;
+  width: 25%;
+  padding: .75rem;
+  flex-direction: column;
+}
+
+.one {
+  background-color: #e2e2e2;
+  border-left: 1px solid #333;
+}
+
+.two {
+  background-color: #ccc;
+  border-left: 1px solid #333;
+}
+
+.three {
+  background-color: #aaa;
+  border-left: 1px solid #333;
+}
+
+.four {
+  background-color: #999;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.btn-small {
+  display: block;
+  background-color: #333;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  margin-bottom: .2em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: .875rem;
+
+}
+
+.description {
+  display: block;
+  margin: 0 0 1.5rem;
+  flex-grow: 1;
+}
+
+.authors {
+  font-size: .875rem;
+  font-style: italic;
+  margin: 0;
+
+}
+
+.btn-small:hover {
+  background-color: black;
+}
