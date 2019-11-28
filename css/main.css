@@ -15,8 +15,12 @@ body {
 }
 
 img {
-  width: 100px;
+  width: 100%;
   display: block;
+}
+
+li img {
+  width: 100px;
   margin: 0 auto 1.5rem;
 }
 
@@ -94,6 +98,10 @@ a {
   font-size: .875rem;
   font-style: italic;
   margin: 0;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
 
 .btn:hover {
